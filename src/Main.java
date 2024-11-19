@@ -14,13 +14,12 @@ public class Main {
 
             Scanner scanner = new Scanner(System.in);
 
-            System.out.print("명령)");
-            String cdm = scanner.nextLine();
-
-            System.out.println("입력된 명령어: %s".formatted(cdm));
-
-            scanner.close();
-
+            while(true) {
+                System.out.print("명령)");
+                String cdm = scanner.nextLine();
+                System.out.println("입력된 명령어: %s".formatted(cdm));
+                scanner.close();
+            }
+            }
 
     }
-}
